@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="libgraphics">
+      <UniqueIdentifier>{8ac9139e-f1dd-49f4-a9cd-d352bb894e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simpleGUI">
+      <UniqueIdentifier>{a3c51ff2-ad62-4656-8391-e5a54542c0d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libgraphics\exceptio.c">
+      <Filter>libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgraphics\strlib.c">
+      <Filter>libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgraphics\genlib.c">
+      <Filter>libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgraphics\graphics.c">
+      <Filter>libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgraphics\random.c">
+      <Filter>libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgraphics\simpio.c">
+      <Filter>libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\imgui.c">
+      <Filter>simpleGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\destroy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\showtable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\create.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\pageselector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\others.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\add.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\students.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\courses.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\help.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\democode\Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleGUI\eventprocess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libgraphics\exception.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgraphics\strlib.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgraphics\extgraph.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgraphics\gcalloc.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgraphics\genlib.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgraphics\graphics.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgraphics\random.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgraphics\simpio.h">
+      <Filter>libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\imgui.h">
+      <Filter>simpleGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\global.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\includes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\display.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\file.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\destroy.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\showtable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\create.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\pageselector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\others.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\add.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\students.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\courses.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\help.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleGUI\eventprocess.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+【文档组成】
+
+学生管理系统.exe	--最终的可执行文件
+student		--范例文件，可以在学生管理系统中打开
+源码
+--democode	--内含有Main.c文件
+--demoprj-devc	--工程文件，可直接打开编译运行
+--demoprj-vs2017	--工程文件，可直接打开编译运行
+--libgraphics	--内含有libgraphics库文件
+--simpleGUI	--内含有imgui库文件和我的所有头文件（.h）和源文件(.c)
+
