@@ -1,2 +1,2 @@
 # C
-C Class Projects
+课堂作业 基于图形库的学生管理系统
